@@ -9,13 +9,7 @@ export default function PrivacyPolicy() {
       <div className="min-h-screen flex flex-col">
         <header className="pt-10">
           <div className="max-w-4xl mx-auto text-center">
-            {/* ✅ Logo placed directly above title */}
-            <img
-              src={headerlogo}
-              alt="Online Manipal"
-              className="w-[100px] h-auto object-contain mx-auto mb-4"
-            />
-
+           
             <h1
               className="text-3xl md:text-4xl font-extrabold leading-tight"
               style={{ color: "var(--brand-text)" }}
@@ -28,7 +22,7 @@ export default function PrivacyPolicy() {
                 className="font-semibold"
                 style={{ color: "var(--brand-text)" }}
               >
-                October 25, 2025
+                November 01, 2025
               </span>
             </p>
           </div>

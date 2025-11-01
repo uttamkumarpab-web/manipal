@@ -88,19 +88,6 @@ console.log("Raw response text:", text);
     }
   };
 
-   // ✅ When successfully submitted, hide form and show message
-  if (isSubmitted) {
-    return (
-      <div className="relative z-10 bg-[#ffe3d5]/90 border border-[#F97316]/30 rounded-md p-6 md:p-8 w-[80%] max-w-md mx-auto md:mr-16 my-10 shadow-lg text-center">
-        <h3 className="text-2xl font-bold text-[#111827] mb-4">
-          🎉 Thank you!
-        </h3>
-        <p className="text-gray-700">
-          Your enquiry has been received. We’ll contact you soon.
-        </p>
-      </div>
-    );
-  }
 
 
   return (
